@@ -6,14 +6,14 @@ const Resume = () => {
     return (
         <div className='my-10 max-w-6xl mx-auto'>
 
-      <div>
+      <div className='mx-auto'>
 {/* pdf part */}
 <Pdf  targetRef={ref} filename="code-example.pdf">
-        {({ toPdf }) => <button className='mb-2 text-2xl font-bold mx-auto' onClick={toPdf}>Generate Pdf</button>}
+        {({ toPdf }) => <button className='mb-2 text-2xl font-bold ' onClick={toPdf}>Generate Pdf</button>}
       </Pdf>
       </div>
  
- <div ref={ref} className='main card w-full max-w-screen-md shadow-2xl bg-base-100 p-5'> 
+ <div ref={ref} className='mx-auto main card w-full max-w-screen-md shadow-2xl bg-base-100 p-5'> 
 
             <div className="head mx-auto">
                 <h1 className='mb-2 text-2xl font-bold text-center'> Mahamuda Akter</h1>

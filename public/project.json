@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Clothe Resale Store",
+        "urlLive":" https://react-mern-usedclothe.web.app/",
+        "urlServer":"https://github.com/MahamudaM/Clothe-resale-server",
+        "urlClient":"https://github.com/MahamudaM/Clothe-resale-client",
+        "img1":"https://i.ibb.co/wR8wbCz/proj1.png",
+        "img2":"https://i.ibb.co/B4vksY2/clot1.png",
+        "img3":"https://i.ibb.co/QcQHNdT/clot2.png",
+        "fetucher":["used react Query form","React router dom","daisyUI","Firebase Authentication","Style Tailwind CSS"],
+        "samury":"A full-stack website where you have the admin,saller and user dashboard.To place an order,users have to log in and add a product for salle ,saller need to log in.Users can buy clothe from this site through stripe payment.",
+        "technology":" React.js,Axios,Tailwind CSS,react Query form,daisyUI,Firebase Authentication,MongoDb"
+        
+    },
+    {
+        "id":2,
+        "name":"Heart Care",
+        "urlLive":"https://backend-database-a11.web.app/",
+        "urlServer":"https://github.com/MahamudaM/Heart-specialist-server",
+        "urlClient":"https://github.com/MahamudaM/Heart-specialist-client",
+        "img1":"https://i.ibb.co/g3QgNYQ/proj2.png",
+        "img2":"https://i.ibb.co/JKxVL4h/doc1.png",
+        "img3":"https://i.ibb.co/Pj6S3bt/doc2.png",
+        "fetucher":["use create react app","React router dom","Authentication with JWT and firebase","Express.js","Style Tailwind CSS"],
+        "samury":"Anyone can see services section and click on the services card show details button it will take users the details page.Onliy login user can add a review in services details page but anyone can see all users review.",
+        "technology":" React,React router,Node.js,Express.js,Authentication with JWT and firebase,Tailwind css,daisyUI"
+        
+    },
+    {
+        "id":3,
+        "name":"Learning Programming",
+        "urlLive":"https://react-auth-a10.web.app/",
+        "urlServer":" ",
+        "urlClient":"",
+        "img1":"https://i.ibb.co/N7gpHLt/proje3.png",
+        "img2":"https://i.ibb.co/bRDg571/lern1.png",
+        "img3":"https://i.ibb.co/5RWfLQ7/lern2.png",
+        "fetucher":["Fully Responsive Layout","Organized Folder Structure","Clean & Commented Code","Firebase Authentication","hook and Fun. component"],
+        "samury":"User can download course PDF by clicking PDF icon.Onliy log in user get premium access in course.Added dark theme.Fully Responsive",
+        "technology":"React,React router,Node.js,Express.js"
+        
+    }
+]

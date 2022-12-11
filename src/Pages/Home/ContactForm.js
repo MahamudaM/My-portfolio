@@ -21,8 +21,9 @@ const ContactForm = () => {
 // serveirce id service_zr7jm89
 // vertyfy configarationm = 412Gmail_API: Request had insufficient authentication scopes.
     return (
-        <div className=' mx-auto'>
-           <form ref={form} onSubmit={handleSubmit(onSubmit)} className=" m-16 card flex flex-col gap-4  w-full max-w-sm shadow-2xl bg-base-100 p-10 ">
+        <div className='my-10 max-w-6xl'>
+             <h1 className="mb-5 text-5xl font-bold text-center">Let’s start work together</h1>
+           <form ref={form} onSubmit={handleSubmit(onSubmit)} className=" mx-auto m-16 card flex flex-col gap-4  w-full max-w-sm shadow-2xl bg-base-100 p-10 ">
      
            
       <input type="text" placeholder="name" className="input input-bordered w-full max-w-xs" {...register("name", { required: true })} />     
@@ -41,6 +42,10 @@ const ContactForm = () => {
       
       <input className='btn ' type="submit" value='Send Message' />
     </form>
+    <div className='font-bold flex gap-4 '>
+            <a  href="https://www.linkedin.com/in/mahamuda-akter-440ba4259/">Linkedin</a>
+            <a href="https://github.com/MahamudaM">GitHub</a>
+           </div>
         </div>
     );
 };

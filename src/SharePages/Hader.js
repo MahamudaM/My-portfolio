@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 const Hader = () => {
     const menuItem = <>
     <li><Link to ='/'>home</Link></li>
+    <li><Link to ='/about'>About</Link></li>
+    <li><Link to ='/blog'>Blog</Link></li>
     <li><Link to ='/contact'>contact</Link></li>
     <li><Link to='/resume'>Resume</Link></li>
     </>
@@ -22,7 +24,7 @@ const Hader = () => {
               {menuItem}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Mahamuda</a>
+          <a href='/' className="btn btn-ghost normal-case text-xl">Mahamuda</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

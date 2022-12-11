@@ -19,12 +19,9 @@ const Home = () => {
 </div>
            {/* contact */}
            <div className='my-10 max-w-6xl mx-auto'>           
-            <h1 className="mb-5 text-5xl font-bold text-center">Let’s start work together</h1>
+           
            <ContactForm></ContactForm>
-           <div className='font-bold flex gap-4  mx-auto'>
-            <a href="https://www.linkedin.com/in/mahamuda-akter-440ba4259/">Linkedin</a>
-            <a href="https://github.com/MahamudaM">GitHub</a>
-           </div>
+           
            </div>
 
            
