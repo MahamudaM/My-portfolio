@@ -11,6 +11,10 @@ const Resume = () => {
 <Pdf  targetRef={ref} filename="code-example.pdf">
         {({ toPdf }) => <button className='mb-2 text-2xl font-bold ' onClick={toPdf}>Generate Pdf</button>}
       </Pdf>
+      
+      <a href="images/https://drive.google.com/file/d/17_e7L9Olmci6X5rwykw660qGtDH-MB_W/view?usp=sharing.pdf" download>
+        <img src="images/download.png" alt="" /> Download Resume</a>
+
       </div>
  
  <div ref={ref} className='mx-auto main card w-full max-w-screen-md shadow-2xl bg-base-100 p-5'> 
@@ -26,6 +30,7 @@ const Resume = () => {
                <div className="social flex flex-row gap-3 justify-center">
                <a className='text-indigo-500' href="https://github.com/MahamudaM">GitHub</a>
                 <a className='text-indigo-500' href="https://www.linkedin.com/in/mahamuda-akter-440ba4259/">Linkedin</a>
+                <a className='text-indigo-500' href="https://spiffy-narwhal-2a4ff5.netlify.app/">Portfolio</a>
                </div>
             </div>
             <div className="skil">

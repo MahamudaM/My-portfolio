@@ -27,17 +27,17 @@ const ContactForm = () => {
      
            
       <input type="text" placeholder="name" className="input input-bordered w-full max-w-xs" {...register("name", { required: true })} />     
-      {errors.exampleRequired && <span>This field is required</span>}
+      {errors.name && <span>This field is required</span>}
 
       <input type="email" placeholder="email" className="input input-bordered w-full max-w-xs" {...register("email", { required: true })} />     
-      {errors.exampleRequired && <span>This field is required</span>}
+      {errors.email && <span>This field is required</span>}
       
       
       <input type="text" placeholder="subject" className="input input-bordered w-full max-w-xs" {...register("subject", { required: true })} />   
-      {errors.exampleRequired && <span>This field is required</span>}
+      {errors.subject && <span>This field is required</span>}
 
       <textarea className="textarea textarea-bordered" placeholder="Message" {...register("message", { required: true })}></textarea>   
-      {errors.exampleRequired && <span>This field is required</span>}
+      {errors.message && <span>This field is required</span>}
       
       
       <input className='btn ' type="submit" value='Send Message' />

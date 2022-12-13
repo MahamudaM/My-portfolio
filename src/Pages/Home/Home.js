@@ -1,4 +1,5 @@
 import React from 'react';
+import Skills from '../Skills/Skills';
 import ContactForm from './ContactForm';
 import HomeSlider from './HomeSlider/HomeSlider';
 import Project from './Project/Project';
@@ -11,6 +12,10 @@ const Home = () => {
           
            <div>
             <HomeSlider></HomeSlider>
+           </div>
+           {/* skill */}
+           <div className='my-10 max-w-6xl mx-auto'>
+            <Skills></Skills>
            </div>
            {/* project */}
 <div className='my-10'>

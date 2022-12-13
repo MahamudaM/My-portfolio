@@ -6,6 +6,7 @@ import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';
 import ContactForm from './Pages/Home/ContactForm';
 import Home from './Pages/Home/Home';
+import Project1 from './Pages/Home/Project/ProjectDetails/Project1';
 import ProjectDetails from './Pages/Home/Project/ProjectDetails/ProjectDetails';
 import Resume from './Pages/Resume/Resume';
 import Skills from './Pages/Skills/Skills';
@@ -45,7 +46,11 @@ function App() {
           element:<ProjectDetails></ProjectDetails>,
          
           
-        }
+        },
+        {
+          path:'/project/1',
+          element:<Project1></Project1>
+        },
       ]
     }
 
